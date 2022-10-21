@@ -28,7 +28,7 @@ export default function Navbar() {
     }
 
     return (
-        <div className='bg-slate-900 text-white text-center leading-[6rem] text-3xl relative'>
+        <div className='bg-slate-900 text-white text-center leading-[4rem] text-xl lg:leading-[6rem] lg:text-3xl relative'>
             <i className='fa fa-spotify mr-4'></i>
             Spotify
             {/* <div className='text-xl absolute right-0 top-8 mr-[50px]'>
