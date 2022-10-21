@@ -1,0 +1,38 @@
+.player-music {
+    background-color: rgb(21, 30, 52);
+    height: 6rem;
+    color: white;
+}
+
+.rhap_time {
+    color: white;
+}
+
+::selection {
+    background-color: transparent;
+    color: turquoise;
+}
+
+ /* width  */
+ ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(71,85,105); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.hidden {
+  display: hidden;
+} 
